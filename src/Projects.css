@@ -1,0 +1,22 @@
+.title-left-align {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(248, 248, 248);
+    justify-content: center;
+}
+
+.container-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: calc(100% - 200px);
+    width: 100%;
+    margin-right: 50px;
+    margin-left: 100px;
+}

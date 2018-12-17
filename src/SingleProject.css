@@ -1,0 +1,29 @@
+.project-display {
+    background-color: rgb(220, 220, 220);
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 2px);
+}
+
+.project-title {
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    margin-left: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.project-description {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    flex-grow: 1;
+}
+
+.project-links {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}

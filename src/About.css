@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+}
+
+.title {
+    font-weight: 900;
+    font-size: 120px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 110px;
+    text-align: right;
+    padding-right: 75px;
+    padding-left: 75px;
+    margin: 0px;
+}
+
+.textBox {
+    width: 350px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.emphasize {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.links {
+    font-weight: 500;
+    font-size: 19px;
+    color: rgb(160, 160, 160);
+    padding: 8px 12px 0px 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+}

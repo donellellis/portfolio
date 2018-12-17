@@ -1,0 +1,40 @@
+.home {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorBlock1 {
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+}
+
+.colorBlock2 {
+    background-color: rgb(248, 248, 248);
+    width: 50%;
+    height: 100%;
+}
+
+.greeting {
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;
+    font-size: 150px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 130px;
+}
+
+.yellowChar {
+    color: yellow;
+}
+
+.grayChar {
+    color: rgb(220, 220, 220);
+    font-size: 100px;
+    text-transform: lowercase;
+}
