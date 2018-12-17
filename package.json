@@ -8,7 +8,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
-  "homepage": "http://donellellis.github.io/donellellis.github.io",
+  "homepage": "http://donellellis.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
