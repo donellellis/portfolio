@@ -1,0 +1,28 @@
+.container-column-vr {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(248, 248, 248);
+    justify-content: center;
+}
+
+.container-vr {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+}
+
+iframe {
+    width: calc(100% - 60px);
+    height: 80%;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px
+}
