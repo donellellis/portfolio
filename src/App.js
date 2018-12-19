@@ -22,8 +22,8 @@ class App extends Component {
           <nav>
             <Link to="/about">About</Link>
             <Link to="/projects">Projects</Link>
-            {/* <Link to="/vr">Virtual Reality</Link>
-            <Link to="/art">Art</Link> */}
+            <Link to="/vr">Virtual Reality</Link>
+            {/* <Link to="/art">Art</Link> */}
           </nav>
         </header>
         <main>
