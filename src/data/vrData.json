@@ -1,0 +1,30 @@
+[
+    {
+        "title": "1515 Wilson",
+        "sub-title": "Professional Project",
+        "company": "CallisonRTKL",
+        "description": "",
+        "imagePath": "./images/1515-Wilson.jpeg",
+        "panoramaURL": "http://panorama.enscape3d.com/view/rivuahrq/"
+    },
+
+    {
+        "title": "AAMI",
+        "sub-title": "Professional Project",
+        "company": "CallisonRTKL",
+        "description": "",
+        "imagePath": "./images/AAMI.jpeg",
+        "panoramaURL": "http://panorama.enscape3d.com/view/s9cyha7q/"
+    },
+
+    {
+        "title": "NT Lakis",
+        "sub-title": "Professional Project",
+        "company": "CallisonRTKL",
+        "description": "",
+        "imagePath": "./images/NT-Lakis.jpeg",
+        "panoramaURL": "http://panorama.enscape3d.com/view/oq6cnlyi/"
+    }
+
+]
+  

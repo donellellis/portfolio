@@ -5,11 +5,11 @@ import {
   Route
 } from 'react-router-dom'
 
-import Home from './Home.js'
-import About from './About.js'
-import Projects from './Projects.js'
-import VR from './VR.js'
-import Art from './Art.js'
+import Home from '../home/Home.js'
+import About from '../about/About.js'
+import Projects from '../projects/Projects.js'
+import VR from '../vr/VR.js'
+import Art from '../art/Art.js'
 
 class App extends Component {
   render() {
