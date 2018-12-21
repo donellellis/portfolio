@@ -11,7 +11,6 @@ class SingleProject extends Component {
             <a className="links" target="_blank" rel="noopener noreferrer" href={this.props.project.deployedUrl}>[ Deployed ]</a>
             <a className="links" target="_blank" rel="noopener noreferrer" href={this.props.project.githubUrl}>[ GitHub ]</a>
           </div>
-          
       </div>
     );
   }
