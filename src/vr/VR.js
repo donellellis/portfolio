@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
+import SingleVR from './SingleVR.js';
 import './VR.css';
+import vrData from '../data/vrData.json';
+
 
 class VR extends Component {
   render() {
+    
+    let list = vrData.map( (vr, index) => (
+      <SingleVR vr={vr} key={vr.id}/>
+    ))
+
     return (
       <div className="container-2">
         <div className="vr-splash">
@@ -21,19 +29,10 @@ class VR extends Component {
             <div className="container-vr">
                 <iframe title="Moonshot Virtual Reality Tour" src="http://jessegerard.com/donell-ellis/studiotk/" alt="Moonshot Virtual Reality Tour" allowFullScreen frameBorder="0"></iframe>
             </div>
-        </div>
-        
+          </div>
           <div className="vr-project-grid">
-              <div className="stereo-link">
-                <img className="one" src={ require('../images/1515-Wilson.jpeg') } alt="1515 Wilson 360 degrees panorama" /> 
-              </div>
-              <div className="stereo-link">
-                <img className="two" src={ require('../images/AAMI.jpeg') } alt="AAMI 360 degrees panorama" />
-              </div >
-              <div className="stereo-link">
-                <img className="three" src={ require('../images/NT-Lakis.jpeg') } alt="NT Lakis 360 degrees panorama" /> 
-              </div>
-            </div>
+              {list}
+          </div>
         </div>
     );
   }
