@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import SingleProject from './SingleProject.js';
 import './Projects.css';
-import projectData from './projectData.json';
+import projectData from './data/projectData.json';
 
 class Projects extends Component {
 
@@ -15,9 +14,9 @@ class Projects extends Component {
     return (
       <div className="container">
         <div className="container-column">
-          <h1 className="title-left-align title">proj<br></br>ects.</h1>
+          <h1 className="title-left-align title">work.</h1>
           <div className="textBox">
-            <p><span className="emphasize">Selected work</span><br></br> from a portfolio of individual and group projects.
+            <p><span className="emphasize">Selected projects</span><br></br> from a portfolio of individual and group projects.
             </p>
           </div>
         </div>

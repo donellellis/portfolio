@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import {
-  BrowserRouter as Router,
   Link,
   Route
 } from 'react-router-dom'
@@ -21,22 +20,22 @@ class App extends Component {
           <Link to="/" className="logo">Donell Ellis</Link>
           <nav>
             <Link to="/about">About</Link>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects">Work</Link>
             <Link to="/vr">Virtual Reality</Link>
             {/* <Link to="/art">Art</Link> */}
           </nav>
         </header>
         <main>
-          <aside>
-            <a className="fab fa-github" target="_blank" href="https://github.com/donellellis"></a>
-            <a className="fab fa-linkedin" target="_blank" href="https://www.linkedin.com/in/donell-ellis/"></a>
-          </aside>
           <Route exact path="/" component={ Home }/>
           <Route exact path="/about" component={ About }/>
           <Route exact path="/projects" component={ Projects }/>
           <Route exact path="/vr" component={ VR }/>
           <Route exact path="/art" component={ Art }/>
         </main>
+        <aside>
+            <a className="fab fa-github" target="_blank" rel="noopener noreferrer" href="https://github.com/donellellis"></a>
+            <a className="fab fa-linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/donell-ellis/"></a>
+          </aside>
         <footer>
         </footer>
       </div>

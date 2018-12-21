@@ -7,7 +7,12 @@
 header {
     display: flex;
     align-items: baseline;
-    height: 52px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    z-index: 2;
 }
 
 nav {
@@ -19,11 +24,21 @@ main {
     display: flex;
     flex-flow: row-reverse;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
 }
 
 aside {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 40px;
+    position: fixed;
+    background-color: white;
+    align-self: flex-end;
+    justify-content: center;
+    z-index: 2;
 }
 
 a {
@@ -38,7 +53,7 @@ a {
 
 .fab {
     font-size: 32px;
-    padding: 10px 0px 10px 10px
+    padding: 10px 0px 10px 4px;
 }
 
 .logo {
@@ -53,5 +68,10 @@ a {
 
 footer {
     background-color: white;
-    height: 52px;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    overflow: hidden;
 }
