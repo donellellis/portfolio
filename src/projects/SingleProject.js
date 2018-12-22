@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './SingleProject.css';
 
 class SingleProject extends Component {
+
   render() {
     return (
       <div className="project-display">
