@@ -28,6 +28,7 @@ class VR extends Component {
           </div>
             <div className="container-vr">
                 <iframe title="Moonshot Virtual Reality Tour" src="http://jessegerard.com/donell-ellis/studiotk/" alt="Moonshot Virtual Reality Tour" allowFullScreen frameBorder="0"></iframe>
+                {/* http://bit.ly/donell-moonshot */}
             </div>
           </div>
           <div className="vr-project-grid">
