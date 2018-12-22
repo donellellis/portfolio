@@ -3,6 +3,7 @@
     height: 100%;
     width: 100%;
     align-items: center;
+    justify-content: space-between;
     background-color: rgb(248, 248, 248);
 }
 
@@ -13,8 +14,8 @@
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 110px;
     text-align: right;
-    padding-right: 75px;
-    padding-left: 75px;
+    padding-right: 50px;
+    padding-left: 50px;
     margin: 0px;
 }
 
@@ -40,4 +41,17 @@
     padding: 8px 12px 0px 0px;
     text-decoration: none;
     text-transform: capitalize;
+}
+
+.artContainer {
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    width: 375px;
+}
+
+.personalArt {
+    height: 375px;
+    width: 375px;
 }
