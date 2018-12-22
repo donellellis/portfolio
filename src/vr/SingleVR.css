@@ -1,20 +1,30 @@
-/* .stereo-link {
+.stereo-link {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+}
 
-  /* h4 {
+.vr-title {
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     font-family: 'Roboto', sans-serif;
     line-height: 30px;
-    margin-left: 20px;
     font-weight: 400;
-    margin-bottom: 0px;
     font-size: 30px;
-  } */
+    color: white;
+    margin-left: 20px;
+    bottom: 50px;
+  }
+
+.vr-sub-title {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+    margin-left: 20px;
+    bottom: 48px;
+  }
 
 img {
     box-sizing: border-box;
@@ -23,4 +33,15 @@ img {
     height: 100%;
     padding: 1px;
     z-index: 0;
+}
+
+.vr-link {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 15px;
+    color: white;
+    border: white 3px solid;
+    border-radius: 100%;
+    padding: 9px 6px 9px 6px;
 }
