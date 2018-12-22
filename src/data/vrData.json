@@ -1,8 +1,7 @@
 [
     {
         "title": "1515 Wilson",
-        "sub-title": "Professional Project",
-        "company": "CallisonRTKL",
+        "subTitle": "CRTKL Design Project",
         "description": "",
         "imagePath": "https://i.imgur.com/h0Q14Yi.jpg",
         "alt": "1515 Wilson 360 degrees panorama",
@@ -11,8 +10,7 @@
 
     {
         "title": "AAMI",
-        "sub-title": "Professional Project",
-        "company": "CallisonRTKL",
+        "subTitle": "CRTKL Design Project",
         "description": "",
         "imagePath": "https://i.imgur.com/oivSZ7z.jpg",
         "alt": "AAMI 360 degrees panorama",
@@ -21,8 +19,7 @@
 
     {
         "title": "NT Lakis",
-        "sub-title": "Professional Project",
-        "company": "CallisonRTKL",
+        "subTitle": "CRTKL Design Project",
         "description": "",
         "imagePath": "https://i.imgur.com/icCXloR.jpg",
         "alt": "NT Lakis 360 degrees panorama",
