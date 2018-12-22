@@ -19,7 +19,7 @@ class VR extends Component {
             <div className="textBox">
               <h2 className="emphasize">Moonshot</h2>
               <h3>Personal Design Project</h3>
-              <p>Moonshot is an unbuilt, personal interior design project for a pseudo tech start-up. Developers can have heads-down work time in the closed benching area, step out for a private call, or host meet-up events and client presentations in the residential-inspired lounge and collaboration room. Click on the image to see the space in 360 degrees and colored dots for interactivity.
+              <p>Moonshot is an unbuilt, personal interior design project for a tech start-up. Developers can have heads-down work time in the closed benching area, step out for a private call, or host meet-up events and client presentations in the residential-inspired lounge and collaboration room. Click on the image to see the space in 360 degrees and colored dots for interactivity.
               </p>
               <p>
               Tech: Revit | Enscape3D | Panotour

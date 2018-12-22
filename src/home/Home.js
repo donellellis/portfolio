@@ -6,7 +6,10 @@ class Home extends Component {
     return (
       <div className="home">
         <div className="colorBlock1"></div>
-        <h1 className="greeting">he<span className="grayChar">\n</span><br></br>llo<span className="yellowChar">!</span></h1>
+          <div className="textOverlay">
+            <h1 className="greeting">hello<span className="yellowChar">!</span></h1>
+            <h2 className="grayChar">[ a portfolio ]</h2>
+          </div>
         <div className="colorBlock2"></div>
       </div>
     );
