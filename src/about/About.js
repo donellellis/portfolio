@@ -12,6 +12,10 @@ class About extends Component {
           <a className="links" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/donell-ellis/">[ LinkedIn ]</a>
           <a className="links" target="_blank" rel="noopener noreferrer" href="https://github.com/donellellis">[ GitHub ]</a>
         </div>
+        <div className="artContainer">
+          <img className="personalArt" src="https://i.imgur.com/oK7oE5H.jpg" alt="No.2 Part Deux"/>
+          <p><i>No.2 Part Deux,</i> 2017</p>
+        </div>
       </div>
     );
   }
