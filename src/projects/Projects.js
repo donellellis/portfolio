@@ -8,7 +8,7 @@ class Projects extends Component {
   render() {
 
     let list = projectData.map( (project, index) => (
-      <SingleProject project={project} key={project.id}/>
+      <SingleProject {...project} key={index}/>
     ))
     
     return (
