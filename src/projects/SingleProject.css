@@ -1,9 +1,33 @@
 .project-display {
     background-color: rgb(220, 220, 220);
-    margin: 1px;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+}
+
+.project-opacity-zero {
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.project-textbox {
+    position: relative;
     display: flex;
     flex-direction: column;
-    height: calc(100% - 2px);
+    height: 100%;
+    width: 100%;
+}
+
+/* displays image of app landing page */
+.project-image {
+    box-sizing: border-box;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .project-title {
@@ -12,6 +36,8 @@
     margin-left: 20px;
     font-weight: 400;
     margin-bottom: 0px;
+    z-index: 100;
+    
 }
 
 .project-description {
@@ -26,4 +52,13 @@
 .project-links {
     margin-left: 20px;
     margin-bottom: 10px;
+}
+
+.links-light-gray {
+    font-weight: 500;
+    font-size: 19px;
+    color: rgb(160, 160, 160);
+    padding: 8px 12px 0px 0px;
+    text-decoration: none;
+    text-transform: capitalize;
 }
