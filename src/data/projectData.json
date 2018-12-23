@@ -4,7 +4,9 @@
         "description": "Memory game displaying a randomized sequence for a player to repeat by interacting with a game board.",
         "tech": "JavaScript | HTML | CSS",
         "deployedUrl": "https://donellellis.github.io/simon/#",
-        "githubUrl": "https://github.com/donellellis/simon"
+        "githubUrl": "https://github.com/donellellis/simon",
+        "image": "https://i.imgur.com/D2K20I0.png",
+        "alt": "Simon Landing Page"
     },
 
     {
@@ -12,7 +14,9 @@
         "description": "Web-based workbook for readers to record and update responses to the referenced book’s exercises. A user is guided through creating a Health/Work/Play/Love Dashboard.",
         "tech": "JavaScript | HTML | CSS | MongoDB | Express | NodeJS | Handlebars",
         "deployedUrl": "https://designing-your-life-app.herokuapp.com/",
-        "githubUrl": "https://github.com/donellellis/designing-your-life-app" 
+        "githubUrl": "https://github.com/donellellis/designing-your-life-app",
+        "image": "https://i.imgur.com/2Fn8TET.png?1",
+        "alt": "Desiging Your Life Companion App Landing Page"
     },
 
     {
@@ -20,7 +24,9 @@
         "description": "A tool for riders to schedule a car pick-up to their local destination. The app checks a driver's availability, pairs with a compatible pick-up request, and displays the order details.",
         "tech": "JavaScript | CSS | React | MongoDB | Express | NodeJS",
         "deployedUrl": "http://pickupapp.surge.sh/",
-        "githubUrl": "https://github.com/donellellis/PickUpApp" 
+        "githubUrl": "https://github.com/donellellis/PickUpApp",
+        "image": "https://i.imgur.com/w156Jzy.jpg",
+        "alt": "PickUp Landing Page"
     },
 
     {

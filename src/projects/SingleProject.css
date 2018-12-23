@@ -1,9 +1,17 @@
 .project-display {
     background-color: rgb(220, 220, 220);
+    position: relative;
     margin: 1px;
     display: flex;
     flex-direction: column;
     height: calc(100% - 2px);
+}
+
+/* displays image of app landing page */
+.project-image {
+    position: absolute;
+    object-fit: fill;
+    height: 100%;
 }
 
 .project-title {
@@ -26,4 +34,13 @@
 .project-links {
     margin-left: 20px;
     margin-bottom: 10px;
+}
+
+.links-light-gray {
+    font-weight: 500;
+    font-size: 19px;
+    color: rgb(160, 160, 160);
+    padding: 8px 12px 0px 0px;
+    text-decoration: none;
+    text-transform: capitalize;
 }
