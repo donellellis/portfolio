@@ -36,8 +36,9 @@ class SingleProject extends Component {
           src={image}
           alt={name}
           />
-        <div className="project-textbox">
-          <h2 className="project-title">{name}</h2>
+        <div 
+          className="project-textbox">
+          <h2 className={`project-title ${!hover ? 'project-opacity-zero' : ''}`}>{name}</h2>
           {this.ProjectText()}
         </div>
       </div>
