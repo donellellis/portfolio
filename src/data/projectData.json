@@ -25,16 +25,18 @@
         "tech": "JavaScript | CSS | React | MongoDB | Express | NodeJS",
         "deployedUrl": "http://pickupapp.surge.sh/",
         "githubUrl": "https://github.com/donellellis/PickUpApp",
-        "image": "https://i.imgur.com/NcRGFw4.jpg",
+        "image": "https://i.imgur.com/w156Jzy.jpg",
         "alt": "PickUp Landing Page"
     },
 
     {
-        "name": "",
-        "description": "",
-        "tech": "",
-        "deployedUrl": "",
-        "githubUrl": "" 
+        "name": "Ancillary",
+        "description": "A furniture specification and budgeting tool for interior designers.",
+        "tech": "MongoDB | Express | NodeJS | React | JavaScript | CSS",
+        "deployedUrl": "http://ancillary.surge.sh/",
+        "githubUrl": "https://github.com/donellellis/ancillary",
+        "image": "https://i.imgur.com/ANTEmRg.jpg?1",
+        "alt": "Ancillary Landing Page"
     }
 ]
   

@@ -13,7 +13,6 @@ import Art from '../art/Art.js'
 
 class App extends Component {
   render() {
-    console.log('design inspiration from wokine.com')
     return (
       <div className="app">
         <header>

@@ -17,11 +17,19 @@ class SingleProject extends Component {
     hover: false
   };
 
+  handleMouseOver = () => {
+    this.setState({ hover: true });
+  };
+
+  handleMouseOut = () => {
+    this.setState({ hover: false });
+  };
+
   render() {
     const { 
       name, 
       image, 
-      alt 
+      tech 
     } = this.props;
 
     const { hover } = this.state;
@@ -52,6 +60,7 @@ class SingleProject extends Component {
     return (
       <React.Fragment>
         <p className={`project-description ${!this.state.hover ? 'project-opacity-zero' : ''}`}>{this.props.description}</p>
+        <p className={`project-tech ${!this.state.hover ? 'project-opacity-zero' : ''}`}>Tech: {this.props.tech}</p>
         <div className="project-links">
           <a 
             className={linksClassName} 
@@ -73,15 +82,6 @@ class SingleProject extends Component {
       </React.Fragment>
     );
   };
-
-  handleMouseOver = () => {
-    this.setState({ hover: true });
-  };
-
-  handleMouseOut = () => {
-    this.setState({ hover: false });
-  };
-
 }
 
 export default SingleProject;
