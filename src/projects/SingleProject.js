@@ -28,8 +28,7 @@ class SingleProject extends Component {
   render() {
     const { 
       name, 
-      image, 
-      tech 
+      image 
     } = this.props;
 
     const { hover } = this.state;
