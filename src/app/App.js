@@ -18,10 +18,13 @@ class App extends Component {
         <header>
           <Link to="/" className="logo">Donell Ellis</Link>
           <nav>
-            <Link to="/about">About</Link>
-            <Link to="/projects">Work</Link>
-            <Link to="/vr">VR</Link>
-            {/* <Link to="/art">Art</Link> */}
+            <button className="nav-burger"></button>
+            <div className="nav-links">
+              <Link to="/about">About</Link>
+              <Link to="/projects">Work</Link>
+              <Link to="/vr">VR</Link>
+              {/* <Link to="/art">Art</Link> */}
+            </div>
           </nav>
         </header>
         <main>
@@ -34,7 +37,7 @@ class App extends Component {
         <aside>
             <a className="fab fa-github" target="_blank" rel="noopener noreferrer" href="https://github.com/donellellis"></a>
             <a className="fab fa-linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/donell-ellis/"></a>
-          </aside>
+        </aside>
         <footer>
         </footer>
       </div>
