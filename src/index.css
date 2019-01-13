@@ -12,3 +12,14 @@ body, html {
     height: 100%;
     margin: 0px 0px 0px 40px;;
 }
+
+/* media queries */
+
+/* small mobile (mobile, 480px and down) */
+@media screen and (max-width: 480px) {
+
+    #root {
+        margin-left: 2%;
+    }
+
+}
