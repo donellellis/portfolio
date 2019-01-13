@@ -12,14 +12,28 @@ import VR from '../vr/VR.js'
 import Art from '../art/Art.js'
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {isToggleOn: false};
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    this.setState(state => ({
+      isToggleOn: !state.isToggleOn
+    }));
+  }
+
   render() {
     return (
       <div className="app">
         <header>
           <Link to="/" className="logo">Donell Ellis</Link>
           <nav>
-            <button className="nav-burger"></button>
-            <div className="nav-links">
+            <button className="nav-burger" onClick={this.handleClick}></button>
+            <div className={this.state.isToggleOn ? 'nav-links-open' : 'nav-links-closed'}>
               <Link to="/about">About</Link>
               <Link to="/projects">Work</Link>
               <Link to="/vr">VR</Link>

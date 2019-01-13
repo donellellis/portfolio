@@ -1,10 +1,18 @@
-.container {
+.about-container {
     display: flex;
-    height: 100%;
-    width: 100%;
+    top: 50px;
+    bottom: 50px;
+    position: absolute;
+    width: calc(100% - 80px);
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: rgb(248, 248, 248);
+}
+
+.about-container-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .title {
@@ -13,14 +21,15 @@
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 110px;
-    text-align: right;
+    text-align: left;
     padding-right: 50px;
-    padding-left: 50px;
-    margin: 0px;
+    padding-left: 20px;
+    margin: 20px 0px 0px 0px;
 }
 
 .textBox {
-    width: 350px;
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
@@ -32,6 +41,12 @@
     font-weight: 500;
     line-height: 50px;
     margin-bottom: 0px;
+}
+
+.about-links {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
 }
 
 .links {
@@ -48,10 +63,101 @@
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     font-weight: 300;
-    width: 375px;
+    width: 350px;
 }
 
 .personalArt {
-    height: 375px;
-    width: 375px;
+    height: 350px;
+    width: 350px;
+}
+
+/* media queries */
+
+/* extra large devices (extra large screen, 1300px and down) */
+@media screen and (max-width: 1300px) {
+
+    .about-container-text {
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+}
+
+/* large devices (large devices, 992px and down) */
+@media screen and (max-width: 992px) {
+
+    .title {
+        font-size: 100px;
+        line-height: 90px;
+    }
+
+    .textBox {
+        padding-top: 0px;
+    }
+
+    .artContainer {
+        width: 300px;
+    }
+
+    .personalArt {
+        height: 300px;
+        width: 300px;
+        padding: 0px;
+    }
+ 
+}
+
+/* tablet (landscape tablets, 768px and down) */
+@media screen and (max-width: 768px) {
+
+    .about-container {
+        flex-wrap: wrap;
+        height: 100%;
+        margin-bottom: 30px;
+        /* flex-direction: column; */
+    }
+
+    .about-container-text {
+        width: 80%;
+    }
+
+    .artContainer {
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+        background-color: rgb(248, 248, 248);
+        margin-bottom: 30px;
+    }
+
+    .personalArt {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .title {
+        font-size: 120px;
+        line-height: 110px;
+    }
+    
+}
+
+/* start scaling text and images down */
+/* mobile (mobile, 600px and down) */
+@media screen and (max-width: 600px) {
+
+    .title {
+        font-size: 20vw;
+        line-height: 84%;
+    }
+
+    .emphasize {
+        font-size: 5vw;
+    }
+
+    .artContainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
 }

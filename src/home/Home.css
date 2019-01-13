@@ -50,13 +50,8 @@
 
 /* media queries */
 
-/* tablet (landscape tablets, 768px and down) */
-@media screen and (max-width: 768px) {
-
-}
-
 /* mobile (mobile, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .greeting {
         font-size: 25vw;
@@ -64,10 +59,5 @@
     .grayChar {
         font-size: 8vw;
     }
-
-}
-
-/* small mobile (mobile, 480px and down) */
-@media only screen and (max-width: 480px) {
 
 }
