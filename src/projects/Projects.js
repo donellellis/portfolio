@@ -12,7 +12,7 @@ class Projects extends Component {
     ))
     
     return (
-      <div className="container">
+      <div className="projects-container">
         <div className="container-column">
           <h1 className="title-left-align title">work.</h1>
           <div className="textBox">
