@@ -20,6 +20,12 @@ class SingleProject extends Component {
     this.handleMouseOver();
   }
 
+  handleTouchMove = (event) => {
+    event.preventDefault();
+    this.handleMouseOut();
+  }
+
+
   render() {
 
     return (
@@ -27,6 +33,7 @@ class SingleProject extends Component {
         onMouseEnter={this.handleMouseOver}
         onMouseLeave={this.handleMouseOut}
         onTouchStart={this.handleTouchStart}
+        onTouchMove={this.handleTouchMove}
       >
         <img 
           className={`project-image ${this.state.hover ? 'project-opacity-zero' : ''}`} 
