@@ -15,12 +15,18 @@ class SingleProject extends Component {
     this.setState({ hover: false });
   };
 
+  handleTouchStart = (event) => {
+    event.preventDefault();
+    this.handleMouseOver();
+  }
+
   render() {
 
     return (
       <div className="project-display" 
         onMouseEnter={this.handleMouseOver}
         onMouseLeave={this.handleMouseOut}
+        onTouchStart={this.handleTouchStart}
       >
         <img 
           className={`project-image ${this.state.hover ? 'project-opacity-zero' : ''}`} 

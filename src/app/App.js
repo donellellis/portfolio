@@ -49,8 +49,8 @@ class App extends Component {
           <Route exact path="/art" component={ Art }/>
         </main>
         <aside>
-            <a className="fab fa-github" target="_blank" rel="noopener noreferrer" href="https://github.com/donellellis"></a>
-            <a className="fab fa-linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/donell-ellis/"></a>
+            <i className="fab fa-github" target="_blank" rel="noopener noreferrer" href="https://github.com/donellellis"></i>
+            <i className="fab fa-linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/donell-ellis/"></i>
         </aside>
         <footer>
         </footer>
