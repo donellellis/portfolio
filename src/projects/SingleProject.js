@@ -1,17 +1,7 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import './SingleProject.css';
 
 class SingleProject extends Component {
-  static propTypes = {
-    name: PropTypes.string,
-    description: PropTypes.string,
-    tech: PropTypes.string,
-    deployedUrl: PropTypes.string,
-    githubUrl: PropTypes.string,
-    image: PropTypes.string,
-    alt: PropTypes.string
-  }
 
   state = {
     hover: false
@@ -26,12 +16,6 @@ class SingleProject extends Component {
   };
 
   render() {
-    const { 
-      name, 
-      image 
-    } = this.props;
-
-    const { hover } = this.state;
 
     return (
       <div className="project-display" 
@@ -39,13 +23,13 @@ class SingleProject extends Component {
         onMouseLeave={this.handleMouseOut}
       >
         <img 
-          className={`project-image ${hover ? 'project-opacity-zero' : ''}`} 
-          src={image}
-          alt={name}
+          className={`project-image ${this.state.hover ? 'project-opacity-zero' : ''}`} 
+          src={this.props.image}
+          alt={this.props.alt}
           />
         <div 
           className="project-textbox">
-          <h2 className={`project-title ${!hover ? 'project-opacity-zero' : ''}`}>{name}</h2>
+          <h2 className={`project-title ${!this.state.hover ? 'project-opacity-zero' : ''}`}>{this.props.name}</h2>
           {this.ProjectText()}
         </div>
       </div>
@@ -57,6 +41,8 @@ class SingleProject extends Component {
       `links-light-gray ${!this.state.hover ? 'project-opacity-zero' : ''}`;
 
     return (
+
+      // returning multiple elements, groups list of children
       <React.Fragment>
         <p className={`project-description ${!this.state.hover ? 'project-opacity-zero' : ''}`}>{this.props.description}</p>
         <p className={`project-tech ${!this.state.hover ? 'project-opacity-zero' : ''}`}>Tech: {this.props.tech}</p>

@@ -104,7 +104,7 @@
 
     .projects-text-column {
         margin-top: 30px;
-        margin-left: 8%;
+        margin-left: 7%;
     }
 
     .projects-background {
@@ -114,9 +114,9 @@
     .container-projects {
         flex-direction: column;
         flex-wrap: nowrap;
-        margin-right: 8%;
-        margin-left: 8%;
-        margin-bottom: calc(50px + 8%);
+        margin-right: 7%;
+        margin-left: 7%;
+        margin-bottom: calc(50px + 7%);
     }
 
 }
