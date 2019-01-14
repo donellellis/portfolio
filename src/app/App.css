@@ -59,7 +59,7 @@ aside {
     z-index: 2;
 }
 
-a, i {
+a {
     color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
