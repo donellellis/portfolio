@@ -14,8 +14,8 @@ class VR extends Component {
     return (
       <div className="container-2">
         <div className="vr-splash">
-          <div className="container-column-vr">
-            <h1 className="title-left-align title">VR.</h1>
+          <div className="vr-container-column">
+            <h1 className="vr-title">VR.</h1>
             <div className="textBox">
               <h2 className="emphasize">Moonshot</h2>
               <h3>Personal Design Project</h3>

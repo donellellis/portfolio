@@ -2,6 +2,8 @@
     background-color: rgb(220, 220, 220);
     display: flex;
     position: relative;
+    width: 50%;
+    height: 50%;
 }
 
 .project-opacity-zero {
@@ -35,8 +37,7 @@
     margin-left: 20px;
     font-weight: 400;
     margin-bottom: 0px;
-    z-index: 100;
-    
+    z-index: 1;
 }
 
 .project-description {
@@ -53,7 +54,7 @@
     margin-left: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 400;
     flex-grow: 1;
     margin-top: 0px;
 }
@@ -70,4 +71,16 @@
     padding: 8px 12px 0px 0px;
     text-decoration: none;
     text-transform: capitalize;
+}
+
+/* media queries */
+
+/* tablet (landscape tablets, 768px and down) */
+@media screen and (max-width: 768px) {
+
+   .project-display {
+       width: 100%;
+       height: 100%;
+   }
+
 }

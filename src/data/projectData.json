@@ -10,9 +10,9 @@
     },
 
     {
-        "name": "Designing Your Life Companion App",
+        "name": "Designing Your Life App",
         "description": "Web-based workbook for readers to record and update responses to the referenced book’s exercises. A user is guided through creating a Health/Work/Play/Love Dashboard.",
-        "tech": "JavaScript | HTML | CSS | MongoDB | Express | NodeJS | Handlebars",
+        "tech": "MongoDB | Express | NodeJS | Handlebars | CSS",
         "deployedUrl": "https://designing-your-life-app.herokuapp.com/",
         "githubUrl": "https://github.com/donellellis/designing-your-life-app",
         "image": "https://i.imgur.com/2Fn8TET.png?1",
@@ -22,7 +22,7 @@
     {
         "name": "PickUp",
         "description": "A tool for riders to schedule a car pick-up to their local destination. The app checks a driver's availability, pairs with a compatible pick-up request, and displays the order details.",
-        "tech": "JavaScript | CSS | React | MongoDB | Express | NodeJS",
+        "tech": "MongoDB | Express | React | NodeJS | CSS",
         "deployedUrl": "http://pickupapp.surge.sh/",
         "githubUrl": "https://github.com/donellellis/PickUpApp",
         "image": "https://i.imgur.com/w156Jzy.jpg",
