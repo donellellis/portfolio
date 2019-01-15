@@ -2,7 +2,7 @@
     position: relative;
 }
 
-.vr-title {
+.singleVR-title {
     position: absolute;
     z-index: 1;
     font-family: 'Roboto', sans-serif;
