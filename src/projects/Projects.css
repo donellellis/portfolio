@@ -139,21 +139,6 @@
     }
 
     .container-projects {
-        margin-right: 3%;
-        margin-left: 3%;
-        margin-bottom: calc(50px + 3%);
-    }
-
-    .projects-text-column {
-        margin-left: 3%;
-    }
-
-}
-
-/* small mobile (mobile, 480px and down) */
-@media screen and (max-width: 480px) {
-
-    .container-projects {
         margin-right: 0%;
         margin-left: 0%;
         margin-bottom: 2%;
@@ -162,4 +147,5 @@
     .projects-text-column {
         margin-left: 0%;
     }
+
 }

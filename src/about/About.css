@@ -160,19 +160,12 @@
     .artContainer {
         padding-left: 10%;
         padding-right: 10%;
-    }
-
-}
-
-/* small mobile (mobile, 480px and down) */
-@media screen and (max-width: 480px) {
-
-    .about-container {
-        width: calc(100% - 4%);
-    }
-
-    .artContainer {
         margin-bottom: 2%;
     }
+
+    .about-container {
+        width: calc(100% - 4%)
+    }
+
 }
 

@@ -130,6 +130,7 @@ h3 {
 
     .vr-aframe {
         height: 300px;
+        margin-bottom: 0px;
     }
 
     a-scene {
@@ -137,12 +138,3 @@ h3 {
     }
 
 }
-
-/* small mobile (mobile, 480px and down) */
-@media screen and (max-width: 480px) {
-
-    .vr-aframe {
-        margin-bottom: 0px;
-    }
-}
-  

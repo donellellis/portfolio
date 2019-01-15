@@ -15,8 +15,8 @@ body, html {
 
 /* media queries */
 
-/* small mobile (mobile, 480px and down) */
-@media screen and (max-width: 480px) {
+/* small mobile (mobile, 600px and down) */
+@media screen and (max-width: 600px) {
 
     #root {
         margin-left: 2%;
