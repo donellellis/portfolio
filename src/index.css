@@ -1,16 +1,15 @@
 body, html {
     height: 100%;
     margin: 0px;
-
+    box-sizing: border-box;
     /* prevents screen from getting smaller than 320px */
     min-width: 320px;
     
-    box-sizing: border-box;
+    
 }
 
 #root {
     height: 100%;
-    margin: 0px 0px 0px 40px;;
 }
 
 /* media queries */

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './VR.css';
+import { Link } from 'react-router-dom';
 
 
 class VR extends Component {
@@ -19,13 +20,17 @@ class VR extends Component {
               </p>
             </div>
           </div>
-            <div className="vr-aframe">
-                <a-scene embedded>
+            <div className="vr-display">
+                <div className="vr-aframe">
+                <a-scene embedded className="vr-a-scene">
                   <a-assets>
-                    <img id="moonshot" crossorigin="anonymous" src="https://i.imgur.com/WI4uGQ7.jpg"></img>
+                    <img id="moonshot" crossorigin="anonymous" alt="moonshot fullscreen panorama" src="https://i.imgur.com/WI4uGQ7.jpg"></img>
                   </a-assets>
                   <a-sky src="#moonshot"></a-sky>
               </a-scene>
+              </div>
+              <img className="vr-still" src="https://i.imgur.com/y3PUrRV.jpg" alt="moonshot"></img>
+              <Link to="/moonshot" target="_blank" rel="noopener noreferrer" className="vr-360-icon">360</Link>
             </div>
         </div>
     );
