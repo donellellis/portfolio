@@ -60,20 +60,10 @@ class SingleProject extends Component {
         <p className={`project-description ${!this.state.hover ? 'project-opacity-zero' : ''}`}>{this.props.description}</p>
         <p className={`project-tech ${!this.state.hover ? 'project-opacity-zero' : ''}`}>Tech: {this.props.tech}</p>
         <div className="project-links">
-          <a 
-            className={linksClassName} 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            href={this.props.deployedUrl}
-          >
+          <a className={linksClassName} target="_blank" rel="noopener noreferrer" href={this.props.deployedUrl}>
             [ Deployed ]
           </a>
-          <a 
-            className={linksClassName} 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            href={this.props.githubUrl}
-          >
+          <a className={linksClassName} target="_blank" rel="noopener noreferrer" href={this.props.githubUrl}>
             [ GitHub ]
           </a>
         </div>
