@@ -7,7 +7,7 @@ class FullscreenVR extends Component {
     return (
     <a-scene>
         <a-assets>
-        <img id="moonshot" crossorigin="anonymous" alt="moonshot fullscreen panorama" src="https://i.imgur.com/WI4uGQ7.jpg"></img>
+          <img id="moonshot" crossorigin="anonymous" alt="moonshot fullscreen panorama" src="https://i.imgur.com/WI4uGQ7.jpg"></img>
         </a-assets>
         <a-sky src="#moonshot"></a-sky>
     </a-scene>      
