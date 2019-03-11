@@ -23,8 +23,8 @@
         "name": "PickUp",
         "description": "A tool for riders to schedule a car pick-up to their local destination. The app checks a driver's availability, pairs with a compatible pick-up request, and displays the order details.",
         "tech": "MongoDB | Express | React | NodeJS | CSS",
-        "deployedUrl": "http://pickupapp.surge.sh/",
-        "githubUrl": "https://github.com/donellellis/PickUpApp",
+        "deployedUrl": "http://pickup-app-v2.surge.sh/",
+        "githubUrl": "https://github.com/donellellis/pickup-app-v2",
         "image": "https://i.imgur.com/w156Jzy.jpg",
         "alt": "PickUp Landing Page"
     },
