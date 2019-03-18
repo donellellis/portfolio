@@ -16,7 +16,7 @@ class Projects extends Component {
         <div className="projects-text-column">
           <h1 className="projects-title">work.</h1>
           <div className="projects-textbox">
-            <p><span className="emphasize">Selected projects</span><br></br> from a portfolio of individual and group projects. Please note that projects deployed with Heroku on the backend will experience a short delay for this first request, but subsequent requests will perform normally. 
+            <p><span className="emphasize">Selected projects</span><br></br> from a portfolio of individual and group projects. 
             </p>
           </div>
         </div>
