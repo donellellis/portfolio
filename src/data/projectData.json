@@ -2,9 +2,9 @@
     {
         "name": "Simon",
         "description": "Memory game displaying a randomized sequence for a player to repeat by interacting with a game board.",
-        "tech": "JavaScript | HTML | CSS",
-        "deployedUrl": "https://donellellis.github.io/simon/#",
-        "githubUrl": "https://github.com/donellellis/simon",
+        "tech": "React | SASS",
+        "deployedUrl": "http://simon-app.surge.sh/",
+        "githubUrl": "https://github.com/donellellis/simon-v2",
         "image": "https://i.imgur.com/D2K20I0.png",
         "alt": "Simon Landing Page"
     },
