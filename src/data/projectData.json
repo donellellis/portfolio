@@ -20,6 +20,26 @@
     },
 
     {
+        "name": "Ancillary",
+        "description": "A furniture specification and budgeting tool for interior designers.",
+        "tech": "MongoDB | Express | NodeJS | React | CSS",
+        "deployedUrl": "http://ancillary.surge.sh/",
+        "githubUrl": "https://github.com/donellellis/ancillary",
+        "image": "https://i.imgur.com/wN0SgSO.jpg",
+        "alt": "Ancillary Landing Page"
+    },
+
+    {
+        "name": "W&OD Trail Bike and Brew",
+        "description": "An interactive map displaying breweries along the W&OD trail and access via Arlington bike routes.",
+        "tech": "ArchGIS API | React | SASS ",
+        "deployedUrl": "http://bikeandbrew.surge.sh/",
+        "githubUrl": "https://github.com/donellellis/bike-and-brew",
+        "image": "https://i.imgur.com/6A6oxRx.jpg",
+        "alt": "W&OD Trail Bike and Brew Landing Page"
+    },
+
+    {
         "name": "PickUp",
         "description": "A tool for riders to schedule a car pick-up to their local destination. The app checks a driver's availability, pairs with a compatible pick-up request, and displays the order details.",
         "tech": "MongoDB | Express | React | NodeJS | SASS",
@@ -30,12 +50,12 @@
     },
 
     {
-        "name": "Ancillary",
-        "description": "A furniture specification and budgeting tool for interior designers.",
-        "tech": "MongoDB | Express | NodeJS | React | CSS",
-        "deployedUrl": "http://ancillary.surge.sh/",
-        "githubUrl": "https://github.com/donellellis/ancillary",
-        "image": "https://i.imgur.com/wN0SgSO.jpg",
+        "name": "Contacts",
+        "description": "A contact management application that allows a user to create, update, and delete contacts. The app pulls some contacts from an external database and consistently formats the information.",
+        "tech": "React | SASS",
+        "deployedUrl": "http://contact-manage.surge.sh/",
+        "githubUrl": "https://github.com/donellellis/contacts",
+        "image": "https://i.imgur.com/zs5eBeo.jpg",
         "alt": "Ancillary Landing Page"
     }
 ]

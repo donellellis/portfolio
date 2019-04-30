@@ -2,7 +2,7 @@
     background-color: rgb(220, 220, 220);
     display: flex;
     position: relative;
-    width: 50%;
+    width: 33.33%;
     height: 50%;
 }
 
@@ -75,7 +75,15 @@
 
 /* media queries */
 
+/* Large devices (laptops/desktops, 1200px and down) */
+@media screen and (max-width: 1200px){
+    .project-display {
+        width: 50%;
+        height: 33.33%
+    }
+}
 /* tablet (landscape tablets, 768px and down) */
+
 @media screen and (max-width: 768px) {
 
    .project-display {

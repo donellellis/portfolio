@@ -1,5 +1,6 @@
 .projects-container {
     display: flex;
+    flex-wrap: wrap;
     height: 100%;
     align-items: center;
     justify-content: space-between;
@@ -30,73 +31,37 @@
 .projects-text-column {
     display: flex;
     flex-direction: column;
-    width: 40%;
     background-color: rgb(248, 248, 248);
     justify-content: center;
+    margin-top: 175px;
+    margin-bottom: 30px;
+    width: 450px;
 }
 
 .projects-background {
     display: flex;
     background-color: rgb(248, 248, 248);
     width: 100%;
-    height: 75%;
-    margin-right: 50px;
-    margin-left: 100px;
+    height: 715px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
 }
 
 .container-projects {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 /* media queries */
 
-/* extra large devices (extra large screen, 1325px and down) */
-@media screen and (max-width: 1325px) {
-
-    .projects-container {
-        flex-wrap: wrap;
-    }
-
-    .projects-background {
-        height: 800px;
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 100%;
-    }
-
-    .container-projects {
-        margin-right: 75px;
-        margin-left: 75px;
-        margin-bottom: 100px;
-    }
-
-    .projects-text-column {
-        margin-top: 205px;
-        margin-bottom: 30px;
-        margin-left: 75px;
-        width: auto;
-    }
-
-}
-
-/* Large devices (laptops/desktops, 992px and down) */
-@media screen and (max-width: 992px) {
-
-    .projects-background {
-        height: 600px;
-    }
-
-    .container-projects {
-        margin-right: 3%;
-        margin-left: 3%;
-        margin-bottom: calc(50px + 3%);
-    }
-
-    .projects-text-column {
-        margin-left: 3%;
-    }
+/* Large devices (laptops/desktops, 1200px and down) */
+@media screen and (max-width: 1200px){
+   .projects-background {
+       height: 1072.5px;
+   }
 }
 
 /* tablet (landscape tablets, 768px and down) */
@@ -104,19 +69,15 @@
 
     .projects-text-column {
         margin-top: 30px;
-        margin-left: 7%;
     }
 
     .projects-background {
-        height: 1600px;
+        height: 2400px;
     }
 
     .container-projects {
         flex-direction: column;
         flex-wrap: nowrap;
-        margin-right: 7%;
-        margin-left: 7%;
-        margin-bottom: calc(50px + 7%);
     }
 
 }
@@ -132,10 +93,6 @@
 
     .emphasize {
         font-size: 5vw;
-    }
-
-    .projects-background {
-        height: 1200px;
     }
 
     .container-projects {
