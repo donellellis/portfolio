@@ -82,9 +82,9 @@
         height: 33.33%
     }
 }
-/* tablet (landscape tablets, 768px and down) */
+/* tablet (landscape tablets, 800px and down) */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 
    .project-display {
        width: 100%;
