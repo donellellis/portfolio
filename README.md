@@ -27,6 +27,7 @@ $npm start
 * React
 * JavaScript
 * CSS
+* A-frame
 
 ## Contributing
 
