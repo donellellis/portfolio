@@ -1,6 +1,6 @@
 # Donell Ellis Portfolio
 
-My portfolio is a mobile-responsive, front-end web application built with React, JavaScript, and CSS. It showcases four selected web development applications and one virtual reality project from my previous career as an interior designer. It also includes an about page that displays more information about me and my background. 
+My portfolio is a mobile-responsive, front-end web application built with React, JavaScript, and CSS. It showcases selected web development applications and one virtual reality project from my previous career as an interior designer. It also includes an about page that displays more information about me and my background. 
 
 ## Deployed
 http://donellellis.com
