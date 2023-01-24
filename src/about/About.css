@@ -15,7 +15,7 @@
     justify-content: flex-start;
 }
 
-.title {
+.about-title {
     font-weight: 900;
     font-size: 120px;
     text-transform: uppercase;
@@ -86,7 +86,7 @@
 /* large devices (large devices, 992px and down) */
 @media screen and (max-width: 992px) {
 
-    .title {
+    .about-title {
         font-size: 100px;
         line-height: 90px;
     }
@@ -137,7 +137,7 @@
         padding: 0;
     }
 
-    .title {
+    .about-title {
         font-size: 120px;
         line-height: 110px;
     }
@@ -148,7 +148,7 @@
 /* mobile (mobile, 600px and down) */
 @media screen and (max-width: 600px) {
 
-    .title {
+    .about-title {
         font-size: 20vw;
         line-height: 84%;
     }

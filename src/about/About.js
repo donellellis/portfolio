@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className="about-container">
         <div className="about-container-text">
-          <h1 className="title">about<br></br>me.</h1>
+          <h1 className="about-title">about<br></br>me.</h1>
           <div className="textBox">
             <p><span className="emphasize">I am a web-developer,</span><br></br> an artist, and a designer that values innovation and creative, spontaneous ideation. My detail-oriented, user-centric approach to planning is strongly influenced by my background as an architect and virtual reality experience creator. I am curious and constantly challenging myself and others to cultivate new skills.
             </p>

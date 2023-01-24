@@ -52,7 +52,7 @@
     {
         "name": "Contacts",
         "description": "A contact management application that allows a user to create, update, and delete contacts. The app pulls some contacts from an external database and consistently formats the information.",
-        "tech": "React | SASS",
+        "tech": "React | Redux | SASS",
         "deployedUrl": "http://contact-manage.surge.sh/",
         "githubUrl": "https://github.com/donellellis/contacts",
         "image": "https://i.imgur.com/zs5eBeo.jpg",
