@@ -7,7 +7,11 @@ class Home extends Component {
       <div className="home">
         <div className="colorBlock1">
           <div className="home-text-area">
-            <h1 className="home-title">Amuse-bouche.</h1>
+            <h1 className="home-title">
+              Amuse-
+              <br />
+              bouche.
+            </h1>
             <h2 className="home-subtitle">
               I’m Donell, a front-end engineer and art + design enthusiast
               building digital products.

@@ -27,7 +27,7 @@
 }
 
 .home-text-area {
-  margin: 0 1em;
+  padding: 1em;
   max-width: 525px;
   font-family: "Roboto", sans-serif;
 }
@@ -38,7 +38,7 @@
   text-transform: uppercase;
   word-break: break-all;
   line-height: 1;
-  margin: 0px 0px 10px 0px;
+  margin: 20px 0px 10px 0px;
 }
 
 .home-subtitle {
@@ -48,8 +48,7 @@
 }
 
 .home-cta {
-  position: relative;
-  top: 60px;
+  margin-top: 60px;
 }
 
 .home-cta a {
@@ -60,7 +59,7 @@
 }
 
 .home-about-me {
-  margin: 0 2.5em;
+  padding: 2.5em;
   font-size: 17px;
   font-family: "Roboto", sans-serif;
   color: #595959;
@@ -75,10 +74,34 @@
 
 /* media queries */
 
-/* tablet (landscape tablets, 768px and down) */
+@media screen and (max-width: 1200px) {
+  .home-title {
+    font-size: 9.5vw;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .home-title {
-    font-size: 25vw;
+    font-size: 100px;
+  }
+  .home {
+    flex-direction: column;
+    justify-content: unset;
+  }
+  .home-text-area {
+    padding: 5em 1em;
+  }
+  .colorBlock1 {
+    width: 100%;
+  }
+  .colorBlock2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-title {
+    font-size: 19vw;
   }
 }
 
