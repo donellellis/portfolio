@@ -37,7 +37,7 @@ class Home extends Component {
         <div className="colorBlock2">
           <div className="home-about-me">
             <p className="home-about-me-emphasized">
-              I believe that good design and user experience, wether in the
+              I believe that good design and user experience, whether in the
               built environment or digital realm improves the lives of people
               and inspires community and connection.
             </p>
@@ -50,9 +50,8 @@ class Home extends Component {
               where I delivered projects from conceptual design through to
               construction and was a leader in design technology and
               point-person for virtual reality content creation and strategy.
-              When not coding you can find me biking around the city, hiking,
-              strolling though an art museum, watching a documentary, sewing, or
-              listening to New Orleans jazz.
+              When not coding you can find me biking around the city, strolling
+              though an art museum, sewing, or listening to New Orleans jazz.
             </p>
           </div>
         </div>
