@@ -3,7 +3,7 @@
 My portfolio is a mobile-responsive, front-end web application built with React, JavaScript, and CSS. It includes a short blurb with information about me and my background. 
 
 ## Deployed
-http://donellellis.com
+https://donellellis.com
 
 ## Getting Started
 
