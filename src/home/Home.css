@@ -53,7 +53,8 @@
 
 .home-cta a {
   text-transform: none;
-  padding: 0px 30px 0px 0px;
+  padding: 0px;
+  margin: 0px 30px 0px 0px;
   font-weight: 500;
   font-size: 19px;
 }

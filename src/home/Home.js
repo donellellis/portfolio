@@ -46,12 +46,15 @@ class Home extends Component {
               technical problems and approach building user interfaces with an
               attention to detail. I value design, creativity, and learning and
               am happiest when having engaging conversations about code or
-              building polished designs. I have a background in architecture,
-              where I delivered projects from conceptual design through to
-              construction and was a leader in design technology and
-              point-person for virtual reality content creation and strategy.
-              When not coding you can find me biking around the city, strolling
-              though an art museum, sewing, or listening to New Orleans jazz.
+              building polished designs.
+            </p>
+            <p>
+              I have a background in architecture, where I delivered projects
+              from design to construction. I was a leader in design technology
+              and a point-person for virtual reality content creation and
+              strategy. When not coding you can find me biking around the city,
+              strolling though an art museum, sewing, or listening to New
+              Orleans jazz.
             </p>
           </div>
         </div>
